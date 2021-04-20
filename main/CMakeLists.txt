@@ -19,6 +19,11 @@ idf_component_register(
         esp_adc_cal
         nvs_flash
         spi_flash
+        esp_wifi
+        mcommon
+        mconfig
+        mwifi
+        mlink
 )
 
 target_compile_definitions(${COMPONENT_LIB} PRIVATE LV_CONF_INCLUDE_SIMPLE=1)
